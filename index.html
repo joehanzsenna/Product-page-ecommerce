@@ -1,0 +1,147 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FM-e-commerce-product-page</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <nav>
+      <div>
+        <div class="hamburger">
+          <span class=""></span>
+          <span class=""></span>
+          <span class=""></span>
+        </div>
+        <img src="./images/logo.svg" alt="" />
+      </div>
+
+      <ul class="">
+        <li>Collections</li>
+        <li>Men</li>
+        <li>Women</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+      <div>
+        <div class="cart-div">
+          <img class="cart-icon" src="./images/icon-cart.svg" alt="" />
+          <small class="">1</small>
+        </div>
+        <img src="./images//image-avatar.png" alt="" />
+      </div>
+    </nav>
+
+    <div class="carousel-modal">
+      <div class="carousel-modal-inner">
+        <div class="my-carousel-modal">
+          <img class="close-icon" src="./images/icon-close.svg" alt="" />
+          <img
+            class="previous-icon-modal"
+            src="./images/icon-previous.svg"
+            alt=""
+          />
+          <img
+            class="main-image-modal"
+            src="./images/image-product-1.jpg"
+            alt=""
+          />
+          <img class="next-icon-modal" src="./images/icon-next.svg" alt="" />
+          <div class="images-thumbnails-modal">
+            <img
+              class="active"
+              value="1"
+              src="./images/image-product-1-thumbnail.jpg"
+              alt=""
+            />
+            <img
+              value="2"
+              src="./images/image-product-2-thumbnail.jpg"
+              alt=""
+            />
+            <img
+              value="3"
+              src="./images/image-product-3-thumbnail.jpg"
+              alt=""
+            />
+            <img
+              value="4"
+              src="./images/image-product-4-thumbnail.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cart-modal">
+      <h3>Cart</h3>
+      <hr />
+      <div class="cart-container">
+        <div>
+          <img src="./images/image-product-1-thumbnail.jpg" alt="" />
+          <div>
+            <p>
+              Fall Limited Edtion Sneakers $125.00 x
+              <span class="cart-item-number">3</span>
+              <span class="cart-total-price">375.00</span>
+            </p>
+          </div>
+          <img class="delete-icon" src="./images/icon-delete.svg" alt="" />
+        </div>
+        <button class="check-out">Checkout</button>
+      </div>
+      <p class="cart-empty active">Your Cart Is Empty</p>
+    </div>
+
+    <main>
+      <div class="my-carousel">
+        <img class="previous-icon" src="./images/icon-previous.svg" alt="" />
+        <img class="main-image" src="./images/image-product-1.jpg" alt="" />
+        <img class="next-icon" src="./images/icon-next.svg" alt="" />
+        <div class="images-thumbnails">
+          <img src="./images/image-product-1-thumbnail.jpg" alt="" />
+          <img src="./images/image-product-2-thumbnail.jpg" alt="" />
+          <img src="./images/image-product-3-thumbnail.jpg" alt="" />
+          <img src="./images/image-product-4-thumbnail.jpg" alt="" />
+        </div>
+      </div>
+      <div class="details">
+        <h2>SNEAKER COMPANY</h2>
+        <h1>Fall Limited Edition Sneakers</h1>
+        <p>
+          These low-profile sneakers are your perfect casual wear companion.
+          Featuring a durable rubber outer sole, they'll withstand everything
+          the weather can offer.
+        </p>
+        <div class="pricing">
+          <div>
+            <p>$125.00</p>
+            <p>50%</p>
+          </div>
+          <p>$250.00</p>
+        </div>
+        <div class="bottom-part">
+          <div class="item-count">
+            <p>-</p>
+            <p>0</p>
+            <p>+</p>
+          </div>
+          <button class="add-to-cart cart-btn">
+            <img src="./images/icon-cart-btn.svg" alt="" />Add to cart
+          </button>
+        </div>
+      </div>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
